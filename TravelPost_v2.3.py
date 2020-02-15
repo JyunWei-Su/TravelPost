@@ -160,12 +160,12 @@ def makePostcard(x, y, introduction, textTag, textUsr):             #繪製明�
     img_pil = Image.fromarray(img)                      #繪版
     #繪製國家介紹文字
     font_itr = ImageFont.truetype(str(Path(sys.argv[0]).parent.joinpath('font_MicrosoftJhengHei.ttf')), y//30)      #設定需要顯示的字體與大小
-    font_usr = ImageFont.truetype(str(Path(sys.argv[0]).parent.joinpath('font_HuakangBamboo.ttc')), y//30)
+    font_usr = ImageFont.truetype(str(Path(sys.argv[0]).parent.joinpath('font_HuakangBamboo.ttc')), y//25)
     #取得27個字文字框大小並檢查是否會超出版面(這裡設定27個字的版面最漂亮)
     (width, heigh), (offset_x, offset_y) = font_itr.font.getsize('這裡會有二七個字。這裡會有二七個字。這裡會有二七個字。')
     if (width > x*0.6): #檢查是否超出格式範圍(版面是否會異常)
         font_itr = ImageFont.truetype(str(Path(sys.argv[0]).parent.joinpath('font_MicrosoftJhengHei.ttf')), y//40)  #重新設定字體與大小
-        font_usr = ImageFont.truetype(str(Path(sys.argv[0]).parent.joinpath('font_HuakangBamboo.ttc')), y//40)
+        font_usr = ImageFont.truetype(str(Path(sys.argv[0]).parent.joinpath('font_HuakangBamboo.ttc')), y//32)
     #繪製文字_國家介紹資訊(文字多時須分多行)
     introduction = '　　' + introduction    #開頭空兩格全形格
     if(len(introduction) <= 27):            #將段落分行
@@ -355,8 +355,7 @@ def main(): #主函數(用戶介面)
     img_2_label.pack(side=tk.RIGHT)
 
     window.mainloop() #呼叫視窗運作
-
-
+    
 try:
     main()
 except:
