@@ -1,7 +1,8 @@
 # 2019 Coding101 ThinkSpark : TravelPost
 
 ## 此空間為2019 Coding101 參賽隊伍"ThinkSpark"之作品"信戀千里-旅遊明信片產生器"的作品資料相關檔案內容
-[作品說明影片](https://youtu.be/PEfG1GE5CCU)
+[複賽作品說明影片](https://youtu.be/PEfG1GE5CCU)
+[初賽作品說明影片](https://youtu.be/QXuO6e8VBdw)
 
 ## 包含以下檔案
 
@@ -18,7 +19,7 @@
 ## 下載執行(僅需保留以下檔案即可執行)
 ```
 1.程式所需字型檔(font_HuakangBamboo.ttc、font_MicrosoftJhengHei.ttf)
-.可執行檔(TravelPost_v2.3.exe)
+2.可執行檔(TravelPost_v2.3.exe)
 ```
 
 ## 備註
