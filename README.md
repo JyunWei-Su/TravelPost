@@ -8,7 +8,7 @@
 ## 包含以下檔案
 
 ```
-0.目前最新版本：v2.5
+0.目前最新版本：v2.
 1.主要程式碼(TravelPost_v2.x)
 2.程式所需字型檔(font_HuakangBamboo.ttc、font_MicrosoftJhengHei.ttf)
 3.函式庫檔案(langconv.py、zh_wiki.py)
@@ -22,6 +22,14 @@
 ```
 1.程式所需字型檔(font_HuakangBamboo.ttc、font_MicrosoftJhengHei.ttf)
 2.可執行檔(TravelPost_v2.x.exe)
+```
+
+## 版本更新
+```
+2.3版：區段整理、程式註解
+2.4版：修正誤判郵遞區號為地名的bug
+2.5版：讀入相片時，會提供預覽
+2.6版：優化地點介紹，融合國家、城市
 ```
 
 ## 備註
