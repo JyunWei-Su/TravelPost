@@ -8,7 +8,7 @@
 ## 包含以下檔案
 
 ```
-0.目前最新版本：v2.
+0.目前最新版本：v2.6
 1.主要程式碼(TravelPost_v2.x)
 2.程式所需字型檔(font_HuakangBamboo.ttc、font_MicrosoftJhengHei.ttf)
 3.函式庫檔案(langconv.py、zh_wiki.py)
